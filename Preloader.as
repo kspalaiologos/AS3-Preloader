@@ -75,6 +75,11 @@
 		private function onComplete(evt:Event):void {
 			this.loader.contentLoaderInfo.removeEventListener(ProgressEvent.PROGRESS, onProgress);
 			this.loader.contentLoaderInfo.removeEventListener(Event.COMPLETE, onComplete);
+			while (caller.numChildren > 0)
+				caller.removeChildAt(0);
+			this.caller.addChild(loader);
+			loader.x = 0;
+			loader.y = 0;
 			Config.onLoad.call();
 		}
 		
