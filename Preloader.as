@@ -37,7 +37,7 @@
 		public function Preloader(caller:MovieClip) {
 			super();
 			caller.stop();
-			trace("[PLD] PLD v 1.0, by Krzysztof Szewczyk (12.2018),licensed under terms of the MIT license.");
+			trace("[PLD] PLD v 1.1, by Krzysztof Szewczyk (12.2018), licensed under terms of the MIT license.");
 			this.caller = caller;
 			this.loader = new Loader();
 			this.caller.stage.scaleMode = StageScaleMode.SHOW_ALL;
