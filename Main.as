@@ -3,7 +3,7 @@
 	
 	/**
 	 * Class demonstrating basic usage of preloader.
-	 * <code>Tracer.swf</code file is provided for quickly testing this tool.
+	 * <code>Tracer.swf</code> file is provided for quickly testing this tool.
 	 * Expected result is it's printing "Hello!".
 	 * 
 	 * @author Kamila "Palaiologos" Szewczyk
